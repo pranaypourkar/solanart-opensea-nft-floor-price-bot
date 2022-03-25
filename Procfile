@@ -1,1 +1,1 @@
-worker: node build/solanart.js
+worker:  npm run build & node build/solanart.js
