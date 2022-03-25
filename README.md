@@ -1,8 +1,10 @@
 # discord-nft-floor-price
 
+Git clone the repo
 npm install --save --legacy-peer-deps
 npm run build
 node build/solanart.js
+install dotenv and create .env file in root folder
 https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html
 
 
