@@ -1,4 +1,4 @@
-"use strict";
+
 Object.defineProperty(exports, "__esModule", { value: true });
 const discordx_1 = require("discordx");
 const axios = require('axios');
