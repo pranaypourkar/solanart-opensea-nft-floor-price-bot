@@ -58,7 +58,7 @@ client.once('ready', async () => {
       guilds.map(async (guild: Guild) => {
         //console.log(`changing name in ${guild}`);
         try {
-          const floorPriceDiv =  basicInfo.data.floorPrice/100000000;
+          const floorPriceDiv =  basicInfo.data.floorPrice/1000000000;
           //console.log(quotient);
           await guild.me?.setNickname(
               `${floorPriceDiv} SOL`,
@@ -69,7 +69,7 @@ client.once('ready', async () => {
         }
       });
     } else {
-      const floorPriceDiv =  basicInfo.data.floorPrice/100000000;
+      const floorPriceDiv =  basicInfo.data.floorPrice/1000000000;
       await client.user?.setActivity(`Floor: ${floorPriceDiv} SOL`, {type: 'WATCHING'});
       console.log(`updated activity`);
     }
