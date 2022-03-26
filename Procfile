@@ -1,1 +1,1 @@
-worker: node build/solanart.js
+worker: node build/magiceden.js
