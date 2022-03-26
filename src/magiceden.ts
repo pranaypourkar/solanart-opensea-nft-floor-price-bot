@@ -56,7 +56,7 @@ client.once('ready', async () => {
       await client.user?.setActivity(process.env.SLUG || 'magiceden.io', {type: 'WATCHING'});
 
       guilds.map(async (guild: Guild) => {
-        console.log(`changing name in ${guild}`);
+        //console.log(`changing name in ${guild}`);
         try {
           const floorPriceDiv =  basicInfo.data.floorPrice/100000000;
           //console.log(quotient);
